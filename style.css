@@ -50,6 +50,7 @@ input#disparo {
     border-radius: 3px;
     padding: 5px;
     font-size: 0.6em;
+    font-weight: bold;
 }
 input#disparo:hover {
     background-color: var(--cor2);
@@ -60,6 +61,7 @@ input#prosseguir {
     border-radius: 3px;
     padding: 5px;
     font-size: 0.6em;
+    font-weight: bold;
 }
 input#prosseguir:hover {
     background-color: var(--cor2);
