@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "momo";
+    src: url(vintage_party/VintageParty-FreeVersion.ttf) format('truetype');
+}
+:root {
+    --cor1: #011826;
+    --cor2: #03588C;
+
+}
+body {
+    background-color: var(--cor1);
+    color: white;
+}
+body > h1 {
+    font-family: "momo";
+    font-size: 4em;
+    text-align: center;
+}
+main {
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+main p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+select {
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-radius: 2px;
+}
+input#quantia {
+    font-size: 0.6em;
+    border-color: black;
+    border-radius: 2px;
+    width: 150px;
+}
+input#disparo {
+    color: white;
+    background-color: var(--cor1);
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 0.6em;
+}
+input#disparo:hover {
+    background-color: var(--cor2);
+}
+input#prosseguir {
+    color: white;
+    background-color: var(--cor1);
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 0.6em;
+}
+input#prosseguir:hover {
+    background-color: var(--cor2);
+}
